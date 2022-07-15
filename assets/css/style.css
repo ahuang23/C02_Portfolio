@@ -1,0 +1,75 @@
+/* Global */
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container h2 {
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    background-color: black;
+    display: inline-block;
+}
+
+header h1 {
+    font-size: 30px;
+    padding-left: 25px;
+    margin-top: 22px;
+    color: white;
+    display: inline;
+    float: left;
+}
+
+header nav ul{
+    float: right;
+    margin-top: 28px;
+    display: flex;
+    justify-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+header nav li {
+    float: left;
+    margin-right: 15px;
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+header a:hover {
+    background-color: grey;
+    color: #FF69B4;
+}
+
+/* Banner */
+
+#banner {
+    height: 800px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: url("../pictures/profile.jpg") center;
+    background-size: cover;
+}
+
+/* About Me */
