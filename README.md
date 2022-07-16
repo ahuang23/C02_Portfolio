@@ -6,4 +6,7 @@
 
 ## Images
 
+![Portfolio](./assets/images/portfolio.jpg)
+
 ## Link
+[Portfolio Webpage](https://ahuang23.github.io/C02_Portfolio/)
